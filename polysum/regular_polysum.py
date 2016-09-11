@@ -1,6 +1,6 @@
   import math
 
-  def regular_polygon_area(number_of_edges, edge_length):
+  def regular_polygon_area(n, s):
       """
       Regular polygon area function.
 
@@ -10,7 +10,7 @@
       """
       return (0.25 * n * s ** 2) / math.tan(math.pi / n)
 
-  def regular_polygon_perimeter(number_of_edges, edge_length):
+  def regular_polygon_perimeter(n, s):
       """
       Regular polygon perimeter function.
 
@@ -20,7 +20,7 @@
       """
       return n * s
 
-  def polysum(number_of_edges, edge_length):
+  def polysum(n, s):
       """
       Polysum function.
 
